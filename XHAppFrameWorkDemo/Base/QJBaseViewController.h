@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  QJBaseViewController.h
 //  XHAppFrameWorkDemo
 //
-//  Created by YLY on 2017/6/9.
+//  Created by YLY on 2017/6/15.
 //  Copyright © 2017年 YLY. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface QJBaseViewController : UIViewController
 
 @end
-
