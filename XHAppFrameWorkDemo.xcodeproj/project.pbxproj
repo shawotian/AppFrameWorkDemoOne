@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		197AC09C1EF21E36002AB054 /* QJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 197AC09B1EF21E36002AB054 /* QJBaseViewController.m */; };
+		197AC09D1EF21E36002AB054 /* QJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 197AC09B1EF21E36002AB054 /* QJBaseViewController.m */; };
+		197AC09E1EF21E36002AB054 /* QJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 197AC09B1EF21E36002AB054 /* QJBaseViewController.m */; };
+		197AC0A11EF21FAC002AB054 /* QJBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 197AC0A01EF21FAC002AB054 /* QJBaseTableViewController.m */; };
+		197AC0A21EF21FAC002AB054 /* QJBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 197AC0A01EF21FAC002AB054 /* QJBaseTableViewController.m */; };
+		197AC0A31EF21FAC002AB054 /* QJBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 197AC0A01EF21FAC002AB054 /* QJBaseTableViewController.m */; };
 		19A8FCEC1EEA9AA600E66BF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A8FCEB1EEA9AA600E66BF8 /* main.m */; };
-		19A8FCEF1EEA9AA600E66BF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A8FCEE1EEA9AA600E66BF8 /* AppDelegate.m */; };
-		19A8FCF21EEA9AA600E66BF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A8FCF11EEA9AA600E66BF8 /* ViewController.m */; };
 		19A8FCF51EEA9AA600E66BF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A8FCF31EEA9AA600E66BF8 /* Main.storyboard */; };
 		19A8FCF71EEA9AA600E66BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A8FCF61EEA9AA600E66BF8 /* Assets.xcassets */; };
 		19A8FCFA1EEA9AA600E66BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A8FCF81EEA9AA600E66BF8 /* LaunchScreen.storyboard */; };
 		19A8FD051EEA9AA600E66BF8 /* XHAppFrameWorkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A8FD041EEA9AA600E66BF8 /* XHAppFrameWorkDemoTests.m */; };
 		19A8FD101EEA9AA600E66BF8 /* XHAppFrameWorkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A8FD0F1EEA9AA600E66BF8 /* XHAppFrameWorkDemoUITests.m */; };
+		19DF247F1EF13A29008E5E11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DF247A1EF13A29008E5E11 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		197AC09A1EF21E36002AB054 /* QJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJBaseViewController.h; sourceTree = "<group>"; };
+		197AC09B1EF21E36002AB054 /* QJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJBaseViewController.m; sourceTree = "<group>"; };
+		197AC09F1EF21FAC002AB054 /* QJBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJBaseTableViewController.h; sourceTree = "<group>"; };
+		197AC0A01EF21FAC002AB054 /* QJBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJBaseTableViewController.m; sourceTree = "<group>"; };
 		19A8FCE71EEA9AA600E66BF8 /* XHAppFrameWorkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHAppFrameWorkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19A8FCEB1EEA9AA600E66BF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		19A8FCED1EEA9AA600E66BF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		19A8FCEE1EEA9AA600E66BF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		19A8FCF01EEA9AA600E66BF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		19A8FCF11EEA9AA600E66BF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		19A8FCF41EEA9AA600E66BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19A8FCF61EEA9AA600E66BF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19A8FCF91EEA9AA600E66BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,8 @@
 		19A8FD0B1EEA9AA600E66BF8 /* XHAppFrameWorkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHAppFrameWorkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19A8FD0F1EEA9AA600E66BF8 /* XHAppFrameWorkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHAppFrameWorkDemoUITests.m; sourceTree = "<group>"; };
 		19A8FD111EEA9AA600E66BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19DF24791EF13A29008E5E11 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19DF247A1EF13A29008E5E11 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +85,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		197AC0991EF21CF5002AB054 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		197AC0A41EF228D0002AB054 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		197AC0A51EF22905002AB054 /* common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
 		19A8FCDE1EEA9AA600E66BF8 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +129,14 @@
 		19A8FCE91EEA9AA600E66BF8 /* XHAppFrameWorkDemo */ = {
 			isa = PBXGroup;
 			children = (
-				19A8FCED1EEA9AA600E66BF8 /* AppDelegate.h */,
-				19A8FCEE1EEA9AA600E66BF8 /* AppDelegate.m */,
-				19A8FCF01EEA9AA600E66BF8 /* ViewController.h */,
-				19A8FCF11EEA9AA600E66BF8 /* ViewController.m */,
+				19DF24781EF13A29008E5E11 /* Application */,
+				197AC0A41EF228D0002AB054 /* Classes */,
+				197AC0A51EF22905002AB054 /* common */,
+				19DF247B1EF13A29008E5E11 /* Base */,
+				19DF247C1EF13A29008E5E11 /* Categories */,
+				19DF247D1EF13A29008E5E11 /* Resource */,
+				19DF247E1EF13A29008E5E11 /* Utils */,
+				197AC0991EF21CF5002AB054 /* Vendors */,
 				19A8FCF31EEA9AA600E66BF8 /* Main.storyboard */,
 				19A8FCF61EEA9AA600E66BF8 /* Assets.xcassets */,
 				19A8FCF81EEA9AA600E66BF8 /* LaunchScreen.storyboard */,
@@ -138,6 +170,47 @@
 				19A8FD111EEA9AA600E66BF8 /* Info.plist */,
 			);
 			path = XHAppFrameWorkDemoUITests;
+			sourceTree = "<group>";
+		};
+		19DF24781EF13A29008E5E11 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				19DF24791EF13A29008E5E11 /* AppDelegate.h */,
+				19DF247A1EF13A29008E5E11 /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		19DF247B1EF13A29008E5E11 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				197AC09A1EF21E36002AB054 /* QJBaseViewController.h */,
+				197AC09B1EF21E36002AB054 /* QJBaseViewController.m */,
+				197AC09F1EF21FAC002AB054 /* QJBaseTableViewController.h */,
+				197AC0A01EF21FAC002AB054 /* QJBaseTableViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		19DF247C1EF13A29008E5E11 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		19DF247D1EF13A29008E5E11 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		19DF247E1EF13A29008E5E11 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +280,7 @@
 				TargetAttributes = {
 					19A8FCE61EEA9AA600E66BF8 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DJMLPGDF6N;
 						ProvisioningStyle = Automatic;
 					};
 					19A8FCFF1EEA9AA600E66BF8 = {
@@ -273,9 +347,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19A8FCF21EEA9AA600E66BF8 /* ViewController.m in Sources */,
-				19A8FCEF1EEA9AA600E66BF8 /* AppDelegate.m in Sources */,
+				197AC0A11EF21FAC002AB054 /* QJBaseTableViewController.m in Sources */,
 				19A8FCEC1EEA9AA600E66BF8 /* main.m in Sources */,
+				197AC09C1EF21E36002AB054 /* QJBaseViewController.m in Sources */,
+				19DF247F1EF13A29008E5E11 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +358,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				197AC09D1EF21E36002AB054 /* QJBaseViewController.m in Sources */,
 				19A8FD051EEA9AA600E66BF8 /* XHAppFrameWorkDemoTests.m in Sources */,
+				197AC0A21EF21FAC002AB054 /* QJBaseTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +368,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				197AC09E1EF21E36002AB054 /* QJBaseViewController.m in Sources */,
 				19A8FD101EEA9AA600E66BF8 /* XHAppFrameWorkDemoUITests.m in Sources */,
+				197AC0A31EF21FAC002AB054 /* QJBaseTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +505,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DJMLPGDF6N;
 				INFOPLIST_FILE = XHAppFrameWorkDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xiaohe.XHAppFrameWorkDemo;
@@ -437,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DJMLPGDF6N;
 				INFOPLIST_FILE = XHAppFrameWorkDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xiaohe.XHAppFrameWorkDemo;
@@ -509,6 +590,7 @@
 				19A8FD161EEA9AA600E66BF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19A8FD171EEA9AA600E66BF8 /* Build configuration list for PBXNativeTarget "XHAppFrameWorkDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +599,7 @@
 				19A8FD191EEA9AA600E66BF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19A8FD1A1EEA9AA600E66BF8 /* Build configuration list for PBXNativeTarget "XHAppFrameWorkDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +608,7 @@
 				19A8FD1C1EEA9AA600E66BF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
